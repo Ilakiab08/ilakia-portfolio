@@ -5,6 +5,39 @@
 .header{
     display:flex;
     align-items:left;
-    color:white;
+    color:black;
     background-color:gray;
 }
+.header-left{
+    flex:0.4;
+}
+
+.header-left >h1{
+    text-align:center;
+    font-family:"Alata" ,sans-serif;
+letter-spacing: 1px;
+padding: 20px,0;   
+}
+
+.header-left >h1 >span{
+    color:blue;
+}
+
+
+.header-right{
+    display: flex;
+    justify-content:space-between;
+    flex:0.6;
+    padding:20px;
+    font-size: medium;
+}
+
+.header-right > a> h4{
+font-size: 18px;
+cursor:pointer;
+transition: transform 200ms ease-in-out;
+}
+
+.header-right > a> h4:hover{
+    transform: scale(1.2);
+    }
