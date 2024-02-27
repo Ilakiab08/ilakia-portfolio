@@ -1,11 +1,13 @@
+
 import React from 'react';
 import Header from './components/header/header';
-import TopContainer from './components/TopContainer/TopContainer.jsx';
+import TopContainer from './components/TopContainer/TopContainer'
+
 const App = () => {
   return (
     <div>
       <Header />
-      <TopContainer/>
+     <TopContainer/>
     </div>
   );
 };

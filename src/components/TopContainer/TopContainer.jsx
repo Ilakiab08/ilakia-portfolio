@@ -1,12 +1,15 @@
-import React from 'react'
+
+import React from 'react';
 import { Element } from 'react-scroll';
-import TopContent from 'src/components/TopContent/TopContent.jsx';
+import TopContent from "../TopContent/TopContent.jsx";
+
+
 const TopContainer = () => {
   return (
-   <Element name ='about' className='topcontainer'>
-        <TopContent/>
-        </Element>
-  )
-}
+    <Element name='about' className='topcontainer'>
+      <TopContent />
+    </Element>
+  );
+};
 
-export default TopContainer
+export default TopContainer;
