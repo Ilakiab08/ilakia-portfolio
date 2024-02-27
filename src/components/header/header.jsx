@@ -23,6 +23,7 @@ const header = () => {
   <Link to="contact" smooth={true} duration={500}>
     <h4>Contact</h4>
   </Link>
+  <h4 className="header-rightbutton">Join with me</h4>
 </div>
 
 
