@@ -1,6 +1,6 @@
 import React from 'react'
 import { Element } from 'react-scroll';
-    import TopContent from './components/TopContent/TopContent';
+import TopContent from 'src/components/TopContent/TopContent.jsx';
 const TopContainer = () => {
   return (
    <Element name ='about' className='topcontainer'>
