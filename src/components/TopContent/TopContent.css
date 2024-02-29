@@ -40,3 +40,10 @@ topcontent_container >h1{
     font-weight:300;
 
 }
+.topcontent_workbutton{
+    color:white;
+    border : 1px solid white ;
+    background-color: transparent;
+    
+
+}
