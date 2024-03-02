@@ -1,8 +1,57 @@
+
+
+
 .skillscontainer_img >img{
- width:40%;
- height:30%;
- float:left;
- margin:20px;
+ max-width: 600px;
+ border-radius: 3px;
+ object-fit: contain;
+
+ 
 
 
+}
+.skillscontainer{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+  background-color: black;
+    margin:200px,0;
+}
+
+.skills_text{
+color:white;
+flex:0.6;
+max-width: 500px;
+margin-bottom: 20px;
+}
+
+.skill_text >h2{
+font-size: 30px;
+}
+
+.skillscontainer_img{
+    flex:0.4;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.skillscontainer_img h5{
+    font-family: sans-serif;
+}
+ 
+
+.skill_slider > .MuiLinearProgress -barColorPrimary{
+background-color: rgb(88,88,88);
+}
+.skill_slider1 > div >.MuiLinearProgress -barColorPrimary{
+    background-color: tomato;
+}
+.skill_slider2 > div >.MuiLinearProgress -barColorPrimary{
+    background-color: tomato;
+}
+.skill_slider3 > div >.MuiLinearProgress -barColorPrimary{
+    background-color: tomato;
+}
+.skill_slider4 > div >.MuiLinearProgress -barColorPrimary{
+    background-color: tomato;
 }
