@@ -5,7 +5,7 @@ const header = () => {
   return (
     <div className='header'>
         <div className='header-left'>
-            <h1>Develop<span>er</span></h1>
+            <h1>Tami<span>zh</span> ila<span>kia</span></h1>
         </div>
         <div className='header-right'>
   <Link to="about" smooth={true} duration={500}>
@@ -17,13 +17,13 @@ const header = () => {
   <Link to="projects" smooth={true} duration={500}>
     <h4>Projects</h4>
   </Link>
-  <Link to="experience" smooth={true} duration={500}>
+ {/*  <Link to="experience" smooth={true} duration={500}>
     <h4>Experience</h4>
-  </Link>
+  </Link> */}
   <Link to="contact" smooth={true} duration={500}>
     <h4>Contact</h4>
   </Link>
-  <h4 className="header-rightbutton">Join with me</h4>
+  <h4 className="header-rightbutton">Connect</h4>
 </div>
 
 

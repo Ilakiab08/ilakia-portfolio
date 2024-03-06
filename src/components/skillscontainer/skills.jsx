@@ -13,22 +13,22 @@ const skills = () => {
        <div className='skillset'>
         <h5>React</h5>
         <div className='skill_slider skill_slider1' ></div>
-       <LinearProgress variant ="determinate" value={90} color= "secondary"/>
+       <LinearProgress variant ="determinate" value={50} />
        </div>
        <div className='skillset'>
         <h5>Css</h5>
-        <div className='skill_slider skill_slider1' ></div>
-       <LinearProgress variant ="determinate" value={80} color= "primary"/>
+        <div className='skill_slider skill_slider2' ></div>
+       <LinearProgress variant ="determinate" value={80} />
        </div>
        <div className='skillset'>
         <h5>Javascript</h5>
-        <div className='skill_slider skill_slider1' ></div>
-       <LinearProgress variant ="determinate" value={70} color= "success"/>
+        <div className='skill_slider skill_slider3' ></div>
+       <LinearProgress variant ="determinate" value={70} />
        </div>
        <div className='skillset'>
         <h5>Figma</h5>
-        <div className='skill_slider skill_slider1' ></div>
-       <LinearProgress variant ="determinate" value={90} color= "secondary"/>
+        <div className='skill_slider skill_slider4' ></div>
+       <LinearProgress variant ="determinate" value={90} />
        </div>
        </div>
         </Element>
