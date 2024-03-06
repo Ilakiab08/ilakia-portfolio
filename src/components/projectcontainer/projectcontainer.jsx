@@ -1,12 +1,12 @@
 import React from 'react'
-
-const projectcontainer = () => {
+import {Element} from 'react-scroll'
+const Projectcontainer = () => {
     const project=[
         {
-            img:"",
-            title:"",
+            img:"images/Travel.jpg",
+            title:"Travel Destination",
             description: "",
-            link:"",
+            link:"https://ilakiab08-github-io.vercel.app/",
         },
         {
             img:"",
@@ -16,28 +16,25 @@ const projectcontainer = () => {
         },
         
     ];
-  return (
-   <Element className="projectcontainer"  id="Projects">
-    <h1>Projects</h1>
-    <p>I have displayed my projects here</p>
-    <div className='projectcontainer_projects'>
-project.map((projects,index)={
     return (
-        <project
-        key={index}
-        img={project.img}
-        title={project.title}
-        desc={project.description}
-        link={project.link}
-        />
+        <Element className="projectcontainer" id="Projects">
+            <h1>Projects</h1>
+            <p>I have displayed my projects here</p>
+            <div className='projectcontainer_projects'>
+                {projects.map((project, index) => {
+                    return (
+                        <Project
+                            key={index}
+                            img={project.img}
+                            title={project.title}
+                            desc={project.description}
+                            link={project.link}
+                        />
+                    );
+                })}
+            </div>
+        </Element>
     );
-})
-
-
-    </div>
-   </Element>
-   
-  )
 }
 
-export default projectcontainer
+export default Projectcontainer;
