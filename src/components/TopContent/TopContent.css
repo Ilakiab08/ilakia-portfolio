@@ -46,7 +46,7 @@ topcontent_container >h1{
     color:orangered;
     background-color: white;
     font-weight:600;
-
+transition-duration: 300ms;
 }
 
 .topcontent_projects{
