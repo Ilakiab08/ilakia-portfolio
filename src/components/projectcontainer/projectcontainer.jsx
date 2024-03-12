@@ -1,7 +1,7 @@
 import React from "react";
 import { Element } from "react-scroll";
 import { Project } from "./projects/projects.jsx"; 
-
+import './projectcontainer.css'
 export const Projectcontainer = () => {
     const projectsData = [
         {

@@ -12,7 +12,7 @@ import './projects.css';
         onMouseLeave={() => setShow(false)} 
       >
         {show ? (
-          <div>
+          <div className='projectcontent'>
             <h4>{title}</h4>
             <p>{description}</p> 
           </div>

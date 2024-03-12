@@ -7,3 +7,22 @@ height:200px;
     width:350px;
     height:200px;
 }
+.project:hover{
+    color:white;
+    background-color:orangered;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+.projectcontent{
+    padding :10px,
+
+}
+.projectcontent > h4{
+    padding-bottom:5px,
+
+}
+.projectcontent>p{
+    font-size:15px;
+}
