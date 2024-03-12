@@ -1,7 +1,6 @@
 import React from "react";
 import { Element } from "react-scroll";
-import { Project } from "../../projects/projects.jsx";
-
+import { Project } from "./projects/projects.jsx"; 
 
 export const Projectcontainer = () => {
     const projectsData = [
@@ -12,10 +11,34 @@ export const Projectcontainer = () => {
             link: "https://ilakiab08-github-io.vercel.app/",
         },
         {
-            img: "images/Project2.jpg",
-            title: "Project 2",
+            img: "images/Quiz.jpg",
+            title: "Quiz",
             description: "Description of Project 2",
-            link: "https://example.com",
+            link: "https://gruppeprosjekt-quiz.vercel.app/",
+        },
+        {
+            img: "images/Travel.jpg",
+            title: "Travel Destination",
+            description: "Description of the project",
+            link: "https://ilakiab08-github-io.vercel.app/",
+        },
+        {
+            img: "images/Quiz.jpg",
+            title: "Quiz",
+            description: "Description of Project 2",
+            link: "https://gruppeprosjekt-quiz.vercel.app/",
+        },
+        {
+            img: "images/Travel.jpg",
+            title: "Travel Destination",
+            description: "Description of the project",
+            link: "https://ilakiab08-github-io.vercel.app/",
+        },
+        {
+            img: "images/Quiz.jpg",
+            title: "Quiz",
+            description: "Description of Project 2",
+            link: "https://gruppeprosjekt-quiz.vercel.app/",
         },
     ];
 
