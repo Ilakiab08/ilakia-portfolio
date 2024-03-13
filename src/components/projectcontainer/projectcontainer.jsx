@@ -24,15 +24,15 @@ export const Projectcontainer = () => {
         },
         {
             img: "images/Quiz.jpg",
-            title: "Quiz",
+            title: "TodoList",
             description: "Description of Project 2",
-            link: "https://gruppeprosjekt-quiz.vercel.app/",
+            link: "https://ilakiab08.github.io/todolist-miniproject/",
         },
         {
-            img: "images/Travel.jpg",
-            title: "Travel Destination",
+            img: "images/Drumkit.png",
+            title: "Simple drumkit",
             description: "Description of the project",
-            link: "https://ilakiab08-github-io.vercel.app/",
+            link: "https://ilakiab08.github.io/simpledrumkit/",
         },
         {
             img: "images/Birthdaygift.png",
