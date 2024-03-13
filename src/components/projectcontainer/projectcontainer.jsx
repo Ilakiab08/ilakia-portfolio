@@ -23,7 +23,7 @@ export const Projectcontainer = () => {
             link: "https://overview-of-companies.vercel.app/",
         },
         {
-            img: "images/Quiz.jpg",
+            img: "images/todo.png",
             title: "TodoList",
             description: "Description of Project 2",
             link: "https://ilakiab08.github.io/todolist-miniproject/",
