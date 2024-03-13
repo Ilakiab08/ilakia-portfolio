@@ -17,10 +17,10 @@ export const Projectcontainer = () => {
             link: "https://gruppeprosjekt-quiz.vercel.app/",
         },
         {
-            img: "images/Travel.jpg",
-            title: "Travel Destination",
+            img: "images/overview of companies.png",
+            title: "Overview of companies",
             description: "Description of the project",
-            link: "https://ilakiab08-github-io.vercel.app/",
+            link: "https://overview-of-companies.vercel.app/",
         },
         {
             img: "images/Quiz.jpg",
@@ -35,10 +35,10 @@ export const Projectcontainer = () => {
             link: "https://ilakiab08-github-io.vercel.app/",
         },
         {
-            img: "images/Quiz.jpg",
-            title: "Quiz",
+            img: "images/Birthdaygift.png",
+            title: "Birthday gift site",
             description: "Description of Project 2",
-            link: "https://gruppeprosjekt-quiz.vercel.app/",
+            link: "https://ilakiab08.github.io/Birthday-gift-site/",
         },
     ];
 

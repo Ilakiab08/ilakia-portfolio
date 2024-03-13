@@ -8,7 +8,7 @@
     flex-direction:column;
     color:white;
     justify-content:center;
-    margin:150px,0;
+    margin:200px,0;
     align-items:center;
 
 }
@@ -23,10 +23,8 @@ padding-bottom:15px;
 }
 
 .projectcontainer_projects{
-    display:flex;
-    
-    
-   width:60vw;
+    display:flex !important;
+     width:60vw;
     margin-top:50px;
     flex-wrap:wrap;
 }
