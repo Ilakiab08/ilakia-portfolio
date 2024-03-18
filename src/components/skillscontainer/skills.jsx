@@ -6,7 +6,7 @@ const skills = () => {
   return (
     <Element className='skillscontainer' id ='skills'>
         <div className='skillscontainer_img'>
-            <img src="images/developer.png" alt="" />
+            <img src="./images/developer.png" alt="" />
         </div>
         <div className='skills_text'>
             <h2>Skillset</h2>
