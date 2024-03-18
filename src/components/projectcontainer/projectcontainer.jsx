@@ -5,37 +5,37 @@ import './projectcontainer.css'
 export const Projectcontainer = () => {
     const projectsData = [
         {
-            img: "public/images/Travel.jpg",
+            img: "./images/Travel.jpg",
             title: "Travel Destination",
             description: "Description of the project",
             link: "https://ilakiab08-github-io.vercel.app/",
         },
         {
-            img: "public/images/Quiz.jpg",
+            img: "./images/Quiz.jpg",
             title: "Quiz",
             description: "Description of Project 2",
             link: "https://gruppeprosjekt-quiz.vercel.app/",
         },
         {
-            img: "public/images/overview of companies.png",
+            img: "./images/overview of companies.png",
             title: "Overview of companies",
             description: "Description of the project",
             link: "https://overview-of-companies.vercel.app/",
         },
         {
-            img: "public/images/todo.png",
+            img: "./images/todo.png",
             title: "TodoList",
             description: "Description of Project 2",
             link: "https://ilakiab08.github.io/todolist-miniproject/",
         },
         {
-            img: "public/images/Drumkit.png",
+            img: "./images/Drumkit.png",
             title: "Simple drumkit",
             description: "Description of the project",
             link: "https://ilakiab08.github.io/simpledrumkit/",
         },
         {
-            img: "public/images/Birthdaygift.png",
+            img: "./images/Birthdaygift.png",
             title: "Birthday gift site",
             description: "Description of Project 2",
             link: "https://ilakiab08.github.io/Birthday-gift-site/",
